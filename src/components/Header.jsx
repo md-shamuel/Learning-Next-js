@@ -20,6 +20,12 @@ const Header = () => {
           >
             Dashboard
           </Link>
+          <Link
+            href="/stories"
+            className="text-sm font-medium text-slate-600 transition hover:text-slate-900"
+          >
+            Stories
+          </Link>
 
           <Link
             href="/about"

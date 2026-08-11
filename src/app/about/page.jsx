@@ -19,14 +19,14 @@ const About = () => {
 
         <nav className="mt-8 flex flex-wrap gap-4">
           <Link
-            href="/contact"
+            href="/about/contact"
             className="rounded-xl bg-green-600 px-5 py-3 font-medium text-white transition hover:bg-green-700"
           >
             Contact Us
           </Link>
 
           <Link
-            href="/teams"
+            href="/about/team"
             className="rounded-xl border border-slate-300 px-5 py-3 font-medium text-slate-700 transition hover:bg-slate-100"
           >
             Our Team
