@@ -3,7 +3,7 @@ import Title from "@/components/Title";
 const Login = () => {
   return (
     <div className="mx-auto max-w-md px-6 py-10">
-      <Title>Welcome Back</Title>
+      <Title>LogIn Page</Title>
 
       <form className="mt-6 flex flex-col gap-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
         <div className="flex flex-col gap-1.5">

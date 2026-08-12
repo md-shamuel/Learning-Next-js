@@ -1,7 +1,7 @@
-import Link from "next/link";
+import NavLink from "@/components/NavLink";
 
 const navItems = [
-  { href: "/dashboard", label: "Overview" },
+  { href: "/", label: "Home" },
   { href: "/dashboard/add-story", label: "Add Story" },
   { href: "/dashboard/my-profile", label: "My Profile" },
   { href: "/dashboard/settings", label: "Settings" },
@@ -13,13 +13,13 @@ const DashboardLayout = ({ children }) => {
       <aside className="shrink-0 md:w-56">
         <nav className="flex flex-row gap-2 overflow-x-auto rounded-2xl border border-slate-200 bg-white p-3 shadow-sm md:flex-col md:overflow-visible">
           {navItems.map((item) => (
-            <Link
+            <NavLink
               key={item.href}
               href={item.href}
               className="whitespace-nowrap rounded-lg px-4 py-2 text-sm font-medium text-slate-600 transition hover:bg-slate-100 hover:text-slate-900"
             >
               {item.label}
-            </Link>
+            </NavLink>
           ))}
         </nav>
       </aside>
